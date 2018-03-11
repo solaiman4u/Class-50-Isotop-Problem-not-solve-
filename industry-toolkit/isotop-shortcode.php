@@ -14,42 +14,39 @@ function industry_isotop_shortcode($atts, $content = null)
     
     $industry_isotop_markup = '
     
-    <script>       
-     jQuery(document).ready(function($){   
-            
-                $(".isotop-filter li").click(function () {
-                    
+        <script>
+        jQuery(document).ready(function($) {
+
+            $(".isotop-filter li").click(function() {
+
                 $(".isotop-filter li").removeClass("active");
                 $(this).addClass("active");
 
                 var selector = jQuery(this).attr("data-filter");
                 $(".isotop-list-'.$dynamic_isotop.'").isotope({
-                    filter: selector,                
-                });                
+                    filter: selector,
+                });
 
             });
+        });
 
-            });
+        jQuery(window).load(function() {
 
-            jQuery(window).load(function () {
+            jQuery(".isotop-list-'.$dynamic_isotop.'").isotope();
 
-                jQuery(".isotop-list-'.$dynamic_isotop.'" ).isotope();
-
-            });
-
-                   
-    </script>
+        });
+        </script>
 
         <div class="row">
             <div class="col-md-12">
             <div class="iso">
-<ul class="isotop-filter">
-                    <li class="active" data-filter="*">All Work</li>';
+            <ul class="isotop-filter">
+                <li class="active" data-filter="*">All Work</li>';
     
     if (!empty($isotop_categories) && !is_wp_error($isotop_categories)) {
         foreach ($isotop_categories as $isotop_category) {
             
-            $industry_isotop_markup .= '<li data-filter="'.$isotop_category->slug.'">' . $isotop_category->name . '</li>';
+            $industry_isotop_markup .= '<li data-filter=".'.$isotop_category->slug.'">' . $isotop_category->name . '</li>';
         }
     }
     
