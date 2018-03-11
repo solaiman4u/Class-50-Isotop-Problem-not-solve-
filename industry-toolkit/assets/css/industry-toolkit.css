@@ -1,0 +1,433 @@
+/*================================================
+[  Table of contents  ]
+================================================
+
+1. Section title addon
+
+2. Service Box Addon
+
+3. Slider Css
+
+4. Cta-area
+
+5. Service Box 2 Style
+
+6. CASE Study Area
+
+7. Service Section box-3
+
+8. PRELOADER SLIDER
+
+/*======================================
+[ End table content ]
+======================================*/
+
+div.kc_tabs > .kc_wrapper > .kc_tabs_nav {
+    padding-left: 0;
+}
+
+/*Section title addon*/
+
+.industry_section_title {
+    text-align: center;
+}
+
+.industry_section_title h4 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.industry_section_title h2 {
+    margin-bottom: 40px;
+}
+
+
+/*Service Box Addon*/
+
+.industry_service_box h2 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.industry_service_box {
+    text-align: center;
+}
+
+.service-icon {
+    color: #f4cb10;
+    font-size: 61px;
+    line-height: 67px;
+}
+
+.service-img-icon,
+.service-icon {
+    margin-bottom: 30px;
+}
+
+/* Slider Css */
+
+.industry-single-slide {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    display: table;
+    font-size: 16px;
+    font-weight: 300;
+    height: 580px;
+    position: relative;
+    width: 100%;
+}
+
+.industry-single-slide-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.industry-single-slide h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+
+.industry_slider .owl-nav div {
+    font-size: 50px;
+    left: 50px;
+    line-height: 60px;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+}
+
+.industry_slider .owl-nav .owl-next {
+    left: 50px;
+    right: auto;
+}
+
+.industry_slider .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+
+.industry_slider .owl-dots div {
+    background: #a1a1a3 none repeat scroll 0 0;
+    display: inline-block;
+    height: 5px;
+    margin-right: 6px;
+    width: 30px;
+}
+
+.industry_slider .owl-dots div.active {
+    background: #f0c810 none repeat scroll 0 0;
+}
+
+.industry_slider .owl-dots {
+    bottom: 19%;
+    left: 10%;
+    position: absolute;
+}
+
+.industry-slide-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Cta-area */
+
+.cta-text h3 {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.cta-area {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.kc_wrapper.ui-tabs.kc_clearfix {
+    border: 1px solid #e2e2e2;
+}
+
+
+
+.kc_tabs_nav.ui-tabs-nav.kc_clearfix {
+    background: #fff none repeat scroll 0 0;
+}
+
+.kc-elm.kc-css-829579.kc_tabs.group {
+    border: 1px solid #ddd;
+}
+
+.kc-elm.kc_tab.ui-tabs-panel.kc_ui-tabs-hide.kc_clearfix.ui-tabs-body-active {
+    background: #fff none repeat scroll 0 0;
+
+}
+
+.kc_tabs_nav.ui-tabs-nav.kc_clearfix > li {
+    background: #fff none repeat scroll 0 0;
+}
+
+.kc_tabs .kc_wrapper .kc_tabs_nav {
+    background: #fff !important;
+}
+
+
+.kc-testimo .content-desc {
+    border: 1px solid #ddd;
+    padding: 20px;
+    position: relative;
+    background: #F8F9FC;
+}
+
+.kc-testimo .content-desc::before {
+    content: "";
+    font-family: fontawesome;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.kc-testimo .content-desc::after {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ddd;
+    content: "";
+    left: 10%;
+    position: absolute;
+    top: 100%;
+}
+
+
+/* Service Box 2 Style */
+
+.industry_service_box2 {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 5px #f1f1f1;
+    padding: 12px;
+}
+
+.bexed-btn {
+    background: #f4cb10 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 20px;
+}
+
+.industry_service_box2 h2 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+
+/* CASE Study Area */
+
+.widget.kc-elm {
+    margin-top: 50px;
+    position: relative;
+}
+
+.widget.kc-elm h2.widgettitle {
+    font-size: 12px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    text-transform: uppercase;
+    top: -27px;
+}
+
+
+.industry_case_study_area {
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+    padding: 30px 45% 30px 30px;
+    transition: .3s;
+}
+
+.industry_case_study_area:hover {
+    box-shadow: 3px 5px 40px #ddd;
+    border: 1px solid transparent;
+}
+
+.case_study_bg {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 27%;
+}
+
+
+.case-read-more-btn {
+    color: #f5cf24;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.industry_case_study_area h2 {
+    font-size: 21px;
+}
+
+/* Service Section box-3 */
+
+.industry_service_box3 {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 5px #ddd;
+    margin-bottom: 30px;
+    padding: 30px;
+    position: relative;
+    padding-left: 120px;
+}
+
+.industry_service_box3 h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.industry_service_box3.service-img-icon {
+    left: 30px;
+    position: absolute;
+    top: 30px;
+}
+
+.industry_service_box3.service-img-icon {
+    left: 30px;
+    position: absolute;
+}
+
+.industry_service_box3 .service-img-icon,
+.industry_service_box3 .service-icon {
+    left: 30px;
+    position: absolute;
+    top: 30px;
+}
+
+a.inline-read-more-btn {
+    color: #000;
+    font-weight: 600;
+}
+
+.inline-read-more-btn i.fa {
+    padding-left: 5px;
+}
+
+
+/* PRELOADER SLIDER */
+
+.industry-slider-preloder {
+    position: absolute;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.industry-slider-preloder span {
+    font-size: 50px;
+    height: 50px;
+    left: 50%;
+    line-height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 50px;
+}
+
+.industry-slider-wrapper {
+    position: relative;
+    height: 580px;
+}
+
+/* ISOTOP STYKE */
+
+
+.isotop-box {
+    display: block;
+    margin-bottom: 40px;
+}
+.isotop-box-bg {
+    background-color: #ddd;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.isotop-box-bg::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+.isotop-box-bg i.fa {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    height: 40px;
+    left: 50%;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-top: -20px;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 40px;
+}
+.isotop-box:hover .isotop-box-bg i.fa {
+    opacity: 1;
+    visibility: visible;
+}
+.isotop-box:hover .isotop-box-bg::after {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+
+.isotop-filter li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 3px;
+}
+ul.isotop-filter {
+    list-style: outside none none;
+    margin: 0;
+}
+.isotop-filter {
+    padding: 28px 0;
+    text-align: center;
+}
+.isotop-filter li:hover {
+    background: #ddd none repeat scroll 0 0;
+}
